@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cover"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/oceans"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/explore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/world"
+        android:gravity="end"
+        android:paddingRight="@dimen/border"
+        android:text="@string/explore"
+        android:textAlignment="textEnd"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/world"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:gravity="end"
+        android:paddingRight="@dimen/border"
+        android:text="@string/world"
+        android:textAlignment="textEnd"
+        android:textColor="@color/white"
+        android:textSize="42sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/dancing_in_the_beat" />
+
+    <Button
+        android:id="@+id/started"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="14dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/start"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:background="@drawable/curved_edge"/>
+
+
+</RelativeLayout>

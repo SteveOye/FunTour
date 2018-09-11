@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Fun Tour</string>
+    <string name="explore">Exploring </string>
+    <string name="world">the World </string>
+    <string name="start">Get started</string>
+    <string name="choose">choose your</string>
+    <string name="destination">Destination</string>
+
+    <string name="berlin">Berlin</string>
+    <string name="china">China</string>
+    <string name="nigeria">Nigeria</string>
+    <string name="italy">Italy</string>
+    <string name="moscow">Moscow</string>
+    <string name="rome">Rome</string>
+    <string name="san">San Francisco</string>
+    <string name="paris">Paris</string>
+    <string name="vernice">Vernice</string>
+    <string name="sa">South Africa</string>
+
+    <string name="location_detail">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a
+        galley of type and scrambled it to make a type specimen book.
+        It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+        containing Lorem Ipsum passages,
+        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+
+    <string name="todo">TODO</string>
+    <string name="hotels">Hotels</string>
+    <string name="historical_site">Historical Site</string>
+    <string name="review">Review</string>
+    <string name="photos">Photos</string>
+    <string name="textview">TextView</string>
+    <string name="event">Event</string>
+    <string name="events">Popular Events</string>
+    <string name="event_name">Event Name</string>
+    <string name="location">Location:</string>
+    <string name="origin">Origin</string>
+    <string name="how_it_is_celebrated">How it is celebrated</string>
+    <string name="abuja">Abuja</string>
+    <string name="exit">Exit</string>
+
+    <string name="ld">Location Details</string>
+    <string name="ed">Event Details</string>
+</resources>
