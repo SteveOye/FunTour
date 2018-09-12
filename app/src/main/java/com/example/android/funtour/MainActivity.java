@@ -6,9 +6,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener{
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     Button startBt;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -16,10 +17,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         startBt = findViewById(R.id.started);
         startBt.setOnClickListener(this);
-        }
+    }
 
-    public void onClick(View v){
-        switch (v.getId()){
+    public void onClick(View v) {
+        switch (v.getId()) {
             case R.id.started:
                 Intent intent = new Intent(this, ViewPager.class);
                 startActivity(intent);

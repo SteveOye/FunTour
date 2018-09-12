@@ -16,6 +16,9 @@
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toTopOf="parent">
 
+
+    <!--Added the relative layout to be able to set background
+    to the cardView -->
     <RelativeLayout
         android:id="@+id/event_image"
         android:layout_width="match_parent"

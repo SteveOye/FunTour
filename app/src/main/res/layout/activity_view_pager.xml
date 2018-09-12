@@ -14,8 +14,8 @@
         android:layout_below="@id/tabs"
         android:background="@color/colorPrimary"
         app:elevation="0dp"
-        app:tabIndicatorColor="#b99f94"
-        app:tabSelectedTextColor="#f7d2ac7e"
+        app:tabIndicatorColor="@color/indicator"
+        app:tabSelectedTextColor="@color/selectedText"
         app:tabTextColor="@color/white" />
 
     <android.support.v4.view.ViewPager

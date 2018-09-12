@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_event_fragment"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/oceans">
 
     <TextView
         android:id="@+id/textView"
@@ -16,6 +17,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:text="@string/events"
+        android:textColor="@color/black"
         android:textSize="32sp"
         android:textStyle="bold"
         app:fontFamily="@font/dancing_script"

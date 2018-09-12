@@ -8,4 +8,6 @@
     <color name="white">#ffffff</color>
     <color name="curved">#a85b6a6e</color>
     <color name="black">#000000</color>
+    <color name="indicator">#b99f94</color>
+    <color name="selectedText">#f7d2ac7e</color>
 </resources>

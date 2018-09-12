@@ -24,14 +24,30 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".ViewPager" />
         </activity>
-        <activity android:name=".EventDetails"
+        <activity
+            android:name=".EventDetails"
             android:label="@string/ed"
             android:parentActivityName=".ViewPager">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".ViewPager" />
         </activity>
-        <activity android:name=".ViewPager"></activity>
+        <activity android:name=".ViewPager" />
+        <activity
+            android:name=".MuseumDetails"
+            android:label="@string/md"
+            android:parentActivityName=".ViewPager">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ViewPager" />
+        </activity>
+        <activity android:name=".WeatherCondition"
+            android:label="Weather"
+            android:parentActivityName=".ViewPager">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ViewPager" />
+        </activity>
     </application>
 
 </manifest>

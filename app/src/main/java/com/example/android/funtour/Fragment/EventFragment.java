@@ -37,16 +37,16 @@ public class EventFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.activity_popular_events, container, false);
 
         final ArrayList<Event> events = new ArrayList<>();
-        events.add(new Event(R.drawable.berlin,"Festival"));
-        events.add(new Event(R.drawable.nigeria,"Event"));
-        events.add(new Event(R.drawable.moscow,"Festival"));
-        events.add(new Event(R.drawable.reichstag_building,"Event"));
-        events.add(new Event(R.drawable.rome,"Festival"));
-        events.add(new Event(R.drawable.brandenburg_gate,"Event"));
-        events.add(new Event(R.drawable.adina,"Festival"));
-        events.add(new Event(R.drawable.gendarmenmarkt,"Event"));
-        events.add(new Event(R.drawable.italy,"Festival"));
-        events.add(new Event(R.drawable.melia,"Event"));
+        events.add(new Event(R.drawable.berlin,getString(R.string.festival)));
+        events.add(new Event(R.drawable.nigeria,getString(R.string.event)));
+        events.add(new Event(R.drawable.moscow,getString(R.string.festival)));
+        events.add(new Event(R.drawable.reichstag_building,getString(R.string.event)));
+        events.add(new Event(R.drawable.rome,getString(R.string.festival)));
+        events.add(new Event(R.drawable.brandenburg_gate,getString(R.string.event)));
+        events.add(new Event(R.drawable.adina,getString(R.string.festival)));
+        events.add(new Event(R.drawable.gendarmenmarkt,getString(R.string.event)));
+        events.add(new Event(R.drawable.italy,getString(R.string.festival)));
+        events.add(new Event(R.drawable.melia,getString(R.string.event)));
 
         gridView = rootView.findViewById(R.id.popular_events);
 
