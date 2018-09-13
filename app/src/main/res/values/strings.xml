@@ -52,7 +52,7 @@
     <string name="mmoa">Metropolitan Museum of Art</string>
     <string name="museums">Museum</string>
     <string name="about">The National Gallery is an art museum in Trafalgar Square in the City of Westminster, in Central London. Founded in 1824, it houses a collection of over 2,300 paintings dating from the mid-13th century to 1900</string>
-    <string name="square">Trafalgar Square, London, UK</string>
+    <string name="square">Trafalgar Square, London</string>
     <string name="history">History</string>
     <string name="info">The late 18th century saw the nationalisation of royal or princely art
         collections across mainland Europe. The Bavarian royal collection (now in the Alte Pinakothek, Munich)
@@ -74,4 +74,21 @@
     <string name="cloudy_snowy">Cloudy Snowy</string>
     <string name="cloudy_storm">Cloudy Storm</string>
     <string name="sunny">Sunny</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="le_train_bleu">Le train bleu</string>
+    <string name="upper_bloem">Upper bloem</string>
+    <string name="ciao">Ciao Italy</string>
+    <string name="sponda">Ristorante la Sponda</string>
+    <string name="literatorov">Tsentrailny dom Literatorov</string>
+    <string name="mauve">Mauve lounge Restaurant</string>
+    <string name="name">Name</string>
+    <string name="menu">Menu</string>
+    <string name="dish">Dish</string>
+    <string name="rice">Hainanese Chicken Rice</string>
+    <string name="soup">Chipotle black bean torilla soup</string>
+    <string name="chicken">Chicken</string>
+    <string name="paisa">Bandeja Paisa</string>
+    <string name="burger">Burger</string>
+    <string name="thieboudienne">Thieboudienne</string>
+    <string name="salad">Tortellini Salad</string>
 </resources>

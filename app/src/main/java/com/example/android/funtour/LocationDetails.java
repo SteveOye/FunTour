@@ -50,7 +50,7 @@ public class LocationDetails extends AppCompatActivity {
         historicalHorizontalViewAdapter = new HistoricalHorizontalViewAdapter(historicalSites, getApplication());
         hotelHorizontalViewAdapter = new HotelHorizontalViewAdapter(hotels, getApplication());
 
-        horizontalLayoutManager= new LinearLayoutManager(LocationDetails.this, LinearLayoutManager.HORIZONTAL, false);
+        horizontalLayoutManager = new LinearLayoutManager(LocationDetails.this, LinearLayoutManager.HORIZONTAL, false);
         photo_recyclerView.setLayoutManager(horizontalLayoutManager);
         photo_recyclerView.setAdapter(horizontalViewAdapter);
         horizontalLayoutManager = new LinearLayoutManager(LocationDetails.this, LinearLayoutManager.HORIZONTAL, false);
@@ -84,12 +84,12 @@ public class LocationDetails extends AppCompatActivity {
 
         List<Data> data = new ArrayList<>();
 
-        data.add(new Data( R.drawable.photos_1,getString(R.string.photos) ));
-        data.add(new Data( R.drawable.photos_2,getString(R.string.photos) ));
-        data.add(new Data( R.drawable.photos_3,getString(R.string.photos) ));
-        data.add(new Data( R.drawable.photos_1,getString(R.string.photos) ));
-        data.add(new Data( R.drawable.photos_2,getString(R.string.photos) ));
-        data.add(new Data( R.drawable.photos_3,getString(R.string.photos) ));
+        data.add(new Data(R.drawable.photos_1, getString(R.string.photos)));
+        data.add(new Data(R.drawable.photos_2, getString(R.string.photos)));
+        data.add(new Data(R.drawable.photos_3, getString(R.string.photos)));
+        data.add(new Data(R.drawable.photos_1, getString(R.string.photos)));
+        data.add(new Data(R.drawable.photos_2, getString(R.string.photos)));
+        data.add(new Data(R.drawable.photos_3, getString(R.string.photos)));
 
         return data;
     }
@@ -98,12 +98,12 @@ public class LocationDetails extends AppCompatActivity {
 
         List<Hotels> hotels = new ArrayList<>();
 
-        hotels.add(new Hotels( R.drawable.adina,getString(R.string.hotels) ));
-        hotels.add(new Hotels( R.drawable.melia,getString(R.string.hotels) ));
-        hotels.add(new Hotels( R.drawable.ramada,getString(R.string.hotels) ));
-        hotels.add(new Hotels( R.drawable.adina,getString(R.string.hotels) ));
-        hotels.add(new Hotels( R.drawable.melia,getString(R.string.hotels) ));
-        hotels.add(new Hotels( R.drawable.ramada,getString(R.string.hotels) ));
+        hotels.add(new Hotels(R.drawable.adina, getString(R.string.hotels)));
+        hotels.add(new Hotels(R.drawable.melia, getString(R.string.hotels)));
+        hotels.add(new Hotels(R.drawable.ramada, getString(R.string.hotels)));
+        hotels.add(new Hotels(R.drawable.adina, getString(R.string.hotels)));
+        hotels.add(new Hotels(R.drawable.melia, getString(R.string.hotels)));
+        hotels.add(new Hotels(R.drawable.ramada, getString(R.string.hotels)));
 
         return hotels;
     }
@@ -112,12 +112,12 @@ public class LocationDetails extends AppCompatActivity {
 
         List<HistoricalSites> historicalSites = new ArrayList<>();
 
-        historicalSites.add(new HistoricalSites( R.drawable.musee_pergame_la_porte,getString(R.string.historical_site) ));
-        historicalSites.add(new HistoricalSites( R.drawable.museum_island,getString(R.string.historical_site) ));
-        historicalSites.add(new HistoricalSites( R.drawable.reichstag_building,getString(R.string.historical_site) ));
-        historicalSites.add(new HistoricalSites( R.drawable.brandenburg_gate,getString(R.string.historical_site) ));
-        historicalSites.add(new HistoricalSites( R.drawable.gendarmenmarkt,getString(R.string.historical_site) ));
-        historicalSites.add(new HistoricalSites( R.drawable.museum_island,getString(R.string.historical_site) ));
+        historicalSites.add(new HistoricalSites(R.drawable.musee_pergame_la_porte, getString(R.string.historical_site)));
+        historicalSites.add(new HistoricalSites(R.drawable.museum_island, getString(R.string.historical_site)));
+        historicalSites.add(new HistoricalSites(R.drawable.reichstag_building, getString(R.string.historical_site)));
+        historicalSites.add(new HistoricalSites(R.drawable.brandenburg_gate, getString(R.string.historical_site)));
+        historicalSites.add(new HistoricalSites(R.drawable.gendarmenmarkt, getString(R.string.historical_site)));
+        historicalSites.add(new HistoricalSites(R.drawable.museum_island, getString(R.string.historical_site)));
         return historicalSites;
     }
 }

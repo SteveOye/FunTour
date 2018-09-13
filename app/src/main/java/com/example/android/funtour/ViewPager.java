@@ -10,6 +10,8 @@ import android.view.MenuItem;
 
 public class ViewPager extends AppCompatActivity {
 
+    private TabLayout tabLayout;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,13 +25,14 @@ public class ViewPager extends AppCompatActivity {
         // Set the adapter onto the view pager
         viewPager.setAdapter(adapter);
         // Find the tab layout that shows the tabs
-        TabLayout tabLayout = findViewById(R.id.tabs);
+        tabLayout = findViewById(R.id.tabs);
         // Connect the tab layout with the view pager. This will
         //   1. Update the tab layout when the view pager is swiped
         //   2. Update the view pager when a tab is selected
         //   3. Set the tab layout's tab names with the view pager's adapter's titles
         //      by calling onPageTitle()
         tabLayout.setupWithViewPager(viewPager);
+        setupTabIcons();
     }
 
     @Override
@@ -50,5 +53,12 @@ public class ViewPager extends AppCompatActivity {
             default:
                 return super.onOptionsItemSelected(item);
         }
+    }
+
+    public void setupTabIcons() {
+        tabLayout.getTabAt(0).setIcon(R.drawable.ic_flight_land_black_24dp);
+        tabLayout.getTabAt(1).setIcon(R.drawable.ic_event_black_24dp);
+        tabLayout.getTabAt(2).setIcon(R.drawable.ic_museum_black_24dp);
+        tabLayout.getTabAt(3).setIcon(R.drawable.ic_restaurant_black_24dp);
     }
 }

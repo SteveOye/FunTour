@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/oceans"
     android:orientation="vertical"
     tools:context=".Fragment.MuseumFragment">
@@ -13,7 +14,9 @@
         android:layout_margin="8dp"
         android:text="@string/museums"
         android:textColor="@color/black"
-        android:textSize="24sp" />
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/dancing_script" />
 
     <GridView
         android:id="@+id/museum_view"

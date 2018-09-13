@@ -41,8 +41,17 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".ViewPager" />
         </activity>
-        <activity android:name=".WeatherCondition"
+        <activity
+            android:name=".WeatherCondition"
             android:label="Weather"
+            android:parentActivityName=".ViewPager">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ViewPager" />
+        </activity>
+        <activity
+            android:name=".RestaurantDetails"
+            android:label="Restaurant Details"
             android:parentActivityName=".ViewPager">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

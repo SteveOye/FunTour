@@ -7,6 +7,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 import com.example.android.funtour.Fragment.EventFragment;
 import com.example.android.funtour.Fragment.MuseumFragment;
+import com.example.android.funtour.Fragment.RestaurantFragment;
 import com.example.android.funtour.Fragment.TourFragment;
 
 public class PageAdapter extends FragmentPagerAdapter {
@@ -27,8 +28,10 @@ public class PageAdapter extends FragmentPagerAdapter {
             return new TourFragment();
         } else if (position == 1){
             return new EventFragment();
-        } else {
+        } else if (position == 2){
             return new MuseumFragment();
+        } else {
+            return new RestaurantFragment();
         }
     }
 
@@ -37,17 +40,6 @@ public class PageAdapter extends FragmentPagerAdapter {
      */
     @Override
     public int getCount() {
-        return 3;
-    }
-
-    @Override
-    public CharSequence getPageTitle(int position) {
-        if (position == 0) {
-            return mContext.getString(R.string.destination);
-        } else if (position == 1){
-            return mContext.getString(R.string.event);
-        } else{
-            return mContext.getString(R.string.museums);
-        }
+        return 4;
     }
 }
