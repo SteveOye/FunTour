@@ -12,10 +12,6 @@ Android Studio
 
 * **Stephen Oyebanji** - *Initial work* - [Steve Oye](https://github.com/SteveOye)
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
 ## Acknowledgments
 
 * Mentors on the Udacity android basics track
