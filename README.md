@@ -1,4 +1,4 @@
-# ScoreKeeper
+# FunTour
 
 Fun tour is a tour guide app for android device
 
